@@ -1,6 +1,6 @@
 {
-  "name": "hapi-redis2",
-  "version": "3.0.1",
+  "name": "@miccoh/hapi-redis2",
+  "version": "3.0.2",
   "description": "Inspired by https://github.com/Marsup/hapi-mongodb, here's another simple redis plugin for hapijs that supports multiple connections.",
   "main": "lib/index.js",
   "scripts": {
@@ -12,20 +12,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@hapi/joi": "^17.1.1",
-    "eslint-config-standard": "^11.0.0",
-    "ioredis": "^4.19.4"
+    "ioredis": "^4.28.2",
+    "joi": "^17.5.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/midnightcodr/hapi-redis2"
+    "url": "https://github.com/miccoh1994/hapi-redis2"
   },
   "directories": {
     "lib": "lib"
   },
   "devDependencies": {
     "@hapi/hapi": "^20.0.3",
-    "jest": "^26.6.3",
-    "standard": "^13.0.2"
+    "jest": "^27.4.3"
   }
 }
